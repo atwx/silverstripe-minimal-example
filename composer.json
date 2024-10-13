@@ -1,0 +1,26 @@
+{
+    "name": "atwx/silverstripe-minimal-example",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Atwx\\SilverstripeMinimalExample\\": "app/rc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andy Adiwidjaja",
+            "email": "adiwidjaja@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "silverstripe/admin": "^2.2",
+        "silverstripe/sqlite3": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
+        }
+    }
+}

@@ -1,0 +1,8 @@
+/.env
+/vendor/
+/public/_resources/
+/.idea
+/node_modules
+public/_graphql/
+.graphql-generated/
+public/assets/
