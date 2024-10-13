@@ -1,5 +1,5 @@
 ---
 Name: myproject
 ---
- SilverStripe\Control\Director:
+SilverStripe\Control\Director:
    alternate_base_url: '`SS_BASE_URL`'
